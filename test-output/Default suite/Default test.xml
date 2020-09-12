@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-H7Q5K2I" name="com.amazon.qa.testcases.OrdersPageTest" tests="1" failures="0" timestamp="11 Sep 2020 05:39:39 GMT" time="29.065" errors="0">
+  <testcase name="verifyOrdersPageLabel" time="0.709" classname="com.amazon.qa.testcases.OrdersPageTest"/>
+</testsuite>

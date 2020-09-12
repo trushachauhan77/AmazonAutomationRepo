@@ -1,0 +1,9 @@
+com\amazon\qa\pages\DealsPage.class
+com\amazon\qa\pages\RegisterPage.class
+com\amazon\qa\util\TestUtil.class
+com\qa\ExtentReportListener\ExtentReportListener.class
+com\amazon\qa\pages\HomePage.class
+com\amazon\qa\pages\LoginPage.class
+com\amazon\qa\util\WebEventListener.class
+com\amazon\qa\base\TestBase.class
+com\amazon\qa\pages\OrdersPage.class

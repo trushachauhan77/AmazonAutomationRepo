@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Test Automation Suite" duration-ms="88421" started-at="2020-09-11T11:55:15Z" finished-at="2020-09-11T11:56:43Z">
+    <groups>
+    </groups>
+    <test name="Different features of Amazon" duration-ms="88421" started-at="2020-09-11T11:55:15Z" finished-at="2020-09-11T11:56:43Z">
+      <class name="com.amazon.qa.testcases.OrdersPageTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="20313" started-at="2020-09-11T11:55:40Z" finished-at="2020-09-11T11:56:00Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyOrdersPageLabel()" name="verifyOrdersPageLabel" duration-ms="822" started-at="2020-09-11T11:56:00Z" finished-at="2020-09-11T11:56:01Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="861" started-at="2020-09-11T11:56:01Z" finished-at="2020-09-11T11:56:02Z">
+        </test-method>
+      </class>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="15163" started-at="2020-09-11T11:55:15Z" finished-at="2020-09-11T11:55:30Z">
+        </test-method>
+        <test-method status="FAIL" signature="verifyHomePageTitleTest()" name="verifyHomePageTitleTest" duration-ms="977" started-at="2020-09-11T11:55:30Z" finished-at="2020-09-11T11:55:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Amazon Sign In> but was:<Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Amazon Sign In> but was:<Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.amazon.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1172)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1282" started-at="2020-09-11T11:55:31Z" finished-at="2020-09-11T11:55:32Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="13266" started-at="2020-09-11T11:56:02Z" finished-at="2020-09-11T11:56:15Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyOrdersLinkTest()" name="verifyOrdersLinkTest" duration-ms="4700" started-at="2020-09-11T11:56:15Z" finished-at="2020-09-11T11:56:20Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="933" started-at="2020-09-11T11:56:20Z" finished-at="2020-09-11T11:56:21Z">
+        </test-method>
+      </class>
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="6819" started-at="2020-09-11T11:55:32Z" finished-at="2020-09-11T11:55:39Z">
+        </test-method>
+        <test-method status="PASS" signature="loginPageTitleTest()" name="loginPageTitleTest" duration-ms="22" started-at="2020-09-11T11:55:39Z" finished-at="2020-09-11T11:55:39Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="968" started-at="2020-09-11T11:55:39Z" finished-at="2020-09-11T11:55:40Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="7052" started-at="2020-09-11T11:56:21Z" finished-at="2020-09-11T11:56:28Z">
+        </test-method>
+        <test-method status="PASS" signature="amazonLogoImageTest()" name="amazonLogoImageTest" duration-ms="223" started-at="2020-09-11T11:56:28Z" finished-at="2020-09-11T11:56:28Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="797" started-at="2020-09-11T11:56:28Z" finished-at="2020-09-11T11:56:29Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="6764" started-at="2020-09-11T11:56:29Z" finished-at="2020-09-11T11:56:36Z">
+        </test-method>
+        <test-method status="PASS" signature="loginTest()" name="loginTest" duration-ms="6061" started-at="2020-09-11T11:56:36Z" finished-at="2020-09-11T11:56:42Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1354" started-at="2020-09-11T11:56:42Z" finished-at="2020-09-11T11:56:43Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

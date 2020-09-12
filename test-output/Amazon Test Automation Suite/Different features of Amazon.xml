@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-H7Q5K2I" name="com.amazon.qa.testcases.HomePageTest" tests="6" failures="1" timestamp="11 Sep 2020 06:26:43 GMT" time="88.421" errors="0">
+  <testcase name="verifyHomePageTitleTest" time="0.977" classname="com.amazon.qa.testcases.HomePageTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;Amazon Sign In&amp;gt; but was:&amp;lt;Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<Amazon Sign In> but was:<Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in>
+	at com.amazon.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:38)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="loginPageTitleTest" time="0.022" classname="com.amazon.qa.testcases.LoginPageTest"/>
+  <testcase name="verifyOrdersPageLabel" time="0.822" classname="com.amazon.qa.testcases.OrdersPageTest"/>
+  <testcase name="verifyOrdersLinkTest" time="4.7" classname="com.amazon.qa.testcases.HomePageTest"/>
+  <testcase name="amazonLogoImageTest" time="0.223" classname="com.amazon.qa.testcases.LoginPageTest"/>
+  <testcase name="loginTest" time="6.061" classname="com.amazon.qa.testcases.LoginPageTest"/>
+</testsuite>
